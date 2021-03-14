@@ -25,9 +25,9 @@
 
     <footer  style="color: #57BA98;">
         <div class="container">
-            <!-- <div class="container" style="height: 20px;">
-                <p class="fixed-top text-center col-lg-12 col-md-12 col-sm-12" ><a href="javascript:void(0)" class="closebtn" onclick="closeFooter()" style="text-decoration: none; margin-left: 10px;color: #F2F2F2;">Close footer &times;</a></p> 
-            </div> -->
+            <div class="container mt-4" style="height: 20px;">
+                <p class="fixed-top text-center col-lg-12 col-md-12 col-sm-12" ><a href="#" class="closebtn" onclick="goBack()" style="text-decoration: none; margin-left: 10px;color: #F2F2F2;">Close footer &times;</a></p> 
+            </div>
 
             <div class="row">
                 <div class="animate-this col-lg-4 col-md-12 col-sm-12">
@@ -135,5 +135,10 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
     <script src="{% static 'js/index.js' %}"></script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
 
 </body>
