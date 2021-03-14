@@ -100,10 +100,11 @@ WSGI_APPLICATION = 'lingfield_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'lingfield3DB',
-        'USER': 'postgres',
-        'PASSWORD': 'november1899',
-        'HOST':'localhost'
+        'NAME': 'd71rr6f5js3du6',
+        'USER': 'xshwibncpyjvdx',
+        'PASSWORD': 'fbdde16561485923ca2e0ef47f048beddfe0fc98636e46563fef307aeb42b1e2',
+        'HOST':'ec2-3-222-11-129.compute-1.amazonaws.com',
+        'PORT': 5432
     }
 }
 
