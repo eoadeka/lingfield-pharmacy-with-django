@@ -9,14 +9,7 @@ body {
   font-family: 'EB Garamond';
   height: 100%;
   background-color: #65CCB8;
-
-// #182628
-  
- 
 }
-// span a.cart-icon:hover {
-//   content: "Dashboard";
-// }
 
 .dashboard-sub-header {
 
@@ -271,16 +264,12 @@ span div.navigate nav::-webkit-scrollbar-thumb:hover {
 
 span div.navigate ul li{
   list-style: none;
-  font-size: 1vw; 
-  // overflow: hidden;
- 
-  
-  
+  font-size: 1vw;  
 }
+
 div.navigate ul li a {
   text-decoration: none;
   color: #F2F2F2;
-  
 }
 
 div.navigate ul li a:hover, .active{
@@ -298,23 +287,9 @@ div.navigate ul li a:hover, .active{
 
 // ------------------   MAIN CONTENT BODY -----------------------------------/
 // ---------------------------  WRAPPER -----------------------------------/
-// main div.container{
-//     padding: 1em;
-// }
-
 main div.container-2{
   padding: 3em; 
 }
-
-// .home-page-images{
-//   background-image: url('../static/images/_____simplelife.m-___CEoV9j-A-Rr___-.jpg');
-//   // background-position: center center;
-//   background-repeat: repeat;
-//   // background-size: contain;
-//   height: auto;
-//   position: relative;
-//   width: 100%;
-// }
 
 main div.container h1.welcome{
   // font-size: 80px;
@@ -391,30 +366,9 @@ main div.container h1.welcome span{
 }
 }
 
-
-// @media (max-width: 350px){
-// .home-page-header span{
-//   font-size: 100px;
-// }
-// }
-
-// @media (min-width: 900px){
-// .home-page-header span{
-//   font-size: 120px;
-// }
-// }
-
-
 main div.container-2{
   display: flex;
 }
-
-// .pres-button {
-//   position: absolute;
-//   top: 60%;
-//   left: 50%;
-//   transform: translate(-50%, -50%);
-// }
 
 .pres-button a {
   font-family: Arial, Helvetica, sans-serif;
@@ -435,7 +389,6 @@ main div.container-2{
 }
 
 .index-page-text {
-  // background-image: url("..static/images/pharmacy/Pharmacist/3725269.jpg") fixed no-repeat;
   text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
                  10px 20px 5px rgba(0,0,0,0.05),
                  -10px 20px 5px rgba(0,0,0,0.05);
@@ -466,11 +419,8 @@ main div.container-2{
   }
 .index-page-img{
   z-index: 999;
-  // position: absolute;
   width: 90%;
   display: inline;
-  // clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-  // clip-path: polygon(100% 0, 100% 80%, 0 80%, 0 23%);
 }
 
 @media (min-width : 200px) {
@@ -502,6 +452,7 @@ main div.container-2{
 // -------------------------    END OF WRAPPER  ---------------------------------------/
 
 .each-page-header{
+  padding-top: 50px;
   color: #182628;
   text-shadow: -10px 10px 0px #00e6e6,
                  -20px 20px 0px #01cccc,
@@ -662,27 +613,6 @@ div .news-months ul li a:hover{
   margin-top: 2%;
 }
 
-// .health-news-column {
-// float: left;
-// width: 100%;
-// padding: 5px;
-// }
-
-// /* Clear floats after the columns */
-// .health-news-row:after {
-// content: "";
-// display: table;
-// clear: both;
-// }
-
-
-// @media only screen and (max-width: 700px) {
-
-// .health-news-column {
-//    width: 100%;
-// }
-// }
-
 // ----------------------   ANIMATION   ---------------------/
 .loading-screen {
   position: relative;
@@ -721,8 +651,6 @@ box-shadow: 0px 60px 48px 0px rgba(0,0,0,0.2);
 #grid-group-img-head {
   display: inline-block;
   border-radius: 2px 60px 0px 0px;
-  // margin: 20px;
-  // border: 1px solid black;
   overflow: hidden;            /* clip the excess when child gets bigger than parent */
 }
 #grid-group-img-head img {
@@ -733,10 +661,7 @@ box-shadow: 0px 60px 48px 0px rgba(0,0,0,0.2);
   transform: scale(1.9) rotate(45deg);
   transform-origin: 50% 50%;
 }
-// .grid-group-img:hover{
-//   transform: scale(1.1) rotate(45deg);
-  
-//   }
+
 .list-group-item {
   border: none;
   padding: 5px 20px;
@@ -792,45 +717,8 @@ box-shadow: 0px 60px 48px 0px rgba(0,0,0,0.2);
   margin-left: 5px;
 }
 
-// .shop-view ul li a{
-//     color: #3c4854;
-// }
-
-// .shop-view ul li a:hover{
-//     color: #0d1115;
-// }
-
 #theCategories {
-margin: auto;
-// z-index: 0;
-// transition: all 500ms ease;
-// -moz-transition: all 500ms ease;
-// -webkit-transition: all 500ms ease;
-// -ms-transition: all 500ms ease;
-// -o-transition: all 500ms ease;
-// z-index: 999;
-// opacity: 1;
-// visibility: visible;
-// -ms-animation-name: fadeInDownTwo;
-// -moz-animation-name: fadeInDownTwo;
-// -op-animation-name: fadeInDownTwo;
-// -webkit-animation-name: fadeInDownTwo;
-// animation-name: fadeInDown;
-// -ms-animation-duration: 500ms;
-// -moz-animation-duration: 500ms;
-// -op-animation-duration: 500ms;
-// -webkit-animation-duration: 500ms;
-// animation-duration: 500ms;
-// -ms-animation-timing-function: linear;
-// -moz-animation-timing-function: linear;
-// -op-animation-timing-function: linear;
-// -webkit-animation-timing-function: linear;
-// animation-timing-function: linear;
-// -ms-animation-iteration-count: 1;
-// -moz-animation-iteration-count: 1;
-// -op-animation-iteration-count: 1;
-// -webkit-animation-iteration-count: 1;
-// animation-iteration-count: 1;
+  margin: auto;
 }
 
 .why-text.full-width h4 {
@@ -1299,13 +1187,6 @@ content: " ";
 {
   clear: both;
 }
-
-
-
-
-// .testimonial-group {
-//   scrollbar-width: thin;
-// }
 /* The heart of the matter */
 .testimonial-group > .row {
   overflow-x: auto;
@@ -1325,6 +1206,3 @@ content: " ";
 
 /* Decorations */
 .col-xs-4 { color: #fff; font-size: 48px; padding-bottom: 20px; padding-top: 18px; }
-// .col-xs-4:nth-child(3n+1) { background: #c69; }
-// .col-xs-4:nth-child(3n+2) { background: #9c6; }
-// .col-xs-4:nth-child(3n+3) { background: #69c; }
